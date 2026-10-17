@@ -275,7 +275,7 @@ fn vsplit(size: SplitSize, a: DockNode, b: DockNode) -> DockNode {
 }
 
 /// The built-in workspaces: After Effects 2026's (Window ▸ Workspace), less Libraries (an Adobe
-/// service). Learn shows the Home screen (community links instead of Adobe's tutorials);
+/// service). Learn shows the Home screen;
 /// Essential Graphics uses the Properties panel; Undocked Panels floats the panels over the
 /// Composition panel.
 pub const WORKSPACES: &[&str] = &[
